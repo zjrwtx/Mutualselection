@@ -1,0 +1,34 @@
+-- 用户表 (存储管理员、老师、学生的基础信息)
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  role ENUM('admin', 'teacher', 'student') NOT NULL
+);
+
+-- 老师表 (详细信息存储)
+CREATE TABLE teachers (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT,
+  name VARCHAR(50),
+  department VARCHAR(100),
+  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+-- 学生表 (详细信息存储)
+CREATE TABLE students (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT,
+  name VARCHAR(50),
+  class VARCHAR(100),
+  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+-- 学生和老师的关联表 (用于表示学生和老师的双选关系)
+CREATE TABLE student_teacher (
+  student_id INT,
+  teacher_id INT,
+  PRIMARY KEY (student_id, teacher_id),
+  FOREIGN KEY (student_id) REFERENCES students(id) ON DELETE CASCADE,
+  FOREIGN KEY (teacher_id) REFERENCES teachers(id) ON DELETE CASCADE
+);

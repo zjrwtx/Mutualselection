@@ -1,0 +1,65 @@
+
+/* 页面整体布局 */
+.login-container.data-v-1cf27b2a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6D5BBA, #8E8CD8);
+}
+
+/* 登录框样式 */
+.login-box.data-v-1cf27b2a {
+  width: 80%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* 标题样式 */
+.title.data-v-1cf27b2a {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* 输入框样式 */
+.input-field.data-v-1cf27b2a {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* 登录按钮样式 */
+.login-button.data-v-1cf27b2a {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #6D5BBA, #8E8CD8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.login-button.data-v-1cf27b2a:hover {
+  background: linear-gradient(135deg, #8E8CD8, #6D5BBA);
+}
+
+/* 注册链接样式 */
+.register-link.data-v-1cf27b2a {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #6D5BBA;
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -1,0 +1,72 @@
+
+/* 页面布局与 login.vue 类似 */
+.register-container.data-v-bac4a35d {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6D5BBA, #8E8CD8);
+}
+.register-box.data-v-bac4a35d {
+  width: 80%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.title.data-v-bac4a35d {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+.input-field.data-v-bac4a35d {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.role-select.data-v-bac4a35d {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.role-option.data-v-bac4a35d {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.role-option.active.data-v-bac4a35d {
+  background-color: #6D5BBA;
+  color: white;
+}
+.register-button.data-v-bac4a35d {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #6D5BBA, #8E8CD8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.register-button.data-v-bac4a35d:hover {
+  background: linear-gradient(135deg, #8E8CD8, #6D5BBA);
+}
+.login-link.data-v-bac4a35d {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #6D5BBA;
+  cursor: pointer;
+  text-decoration: underline;
+}
