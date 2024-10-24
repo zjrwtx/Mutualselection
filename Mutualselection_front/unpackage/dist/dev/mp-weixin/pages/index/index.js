@@ -17,7 +17,7 @@ const _sfc_main = {
         });
         common_vendor.index.setStorageSync("token", response.token);
         common_vendor.index.redirectTo({
-          url: "/pages/studentHome"
+          url: "/pages/studentHome/studentHome"
         });
       } catch (error) {
         common_vendor.index.showToast({ title: "登录失败", icon: "none" });
@@ -26,6 +26,11 @@ const _sfc_main = {
     toRegister() {
       common_vendor.index.navigateTo({
         url: "/pages/register/register"
+      });
+    },
+    toadmin() {
+      common_vendor.index.navigateTo({
+        url: "/pages/adminHome/adminHome"
       });
     }
   }
@@ -37,7 +42,8 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     c: $data.password,
     d: common_vendor.o(($event) => $data.password = $event.detail.value),
     e: common_vendor.o((...args) => $options.login && $options.login(...args)),
-    f: common_vendor.o((...args) => $options.toRegister && $options.toRegister(...args))
+    f: common_vendor.o((...args) => $options.toRegister && $options.toRegister(...args)),
+    g: common_vendor.o((...args) => $options.toadmin && $options.toadmin(...args))
   };
 }
 const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-1cf27b2a"]]);

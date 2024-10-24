@@ -6,7 +6,8 @@
       <input class="input-field" v-model="password" type="password" placeholder="请输入密码" />
       <button class="login-button" @click="login">登录</button>
       <view class="register-link" @click="toRegister">没有账号？去注册</view>
-    </view>
+	  <view class="register-link" @click="toadmin">admin</view>
+	</view>
   </view>
 </template>
 
@@ -29,7 +30,7 @@ export default {
         });
         uni.setStorageSync('token', response.token);
         uni.redirectTo({
-          url: '/pages/studentHome'
+          url: '/pages/studentHome/studentHome'
         });
       } catch (error) {
         uni.showToast({ title: '登录失败', icon: 'none' });
@@ -39,7 +40,12 @@ export default {
       uni.navigateTo({
         url: '/pages/register/register'
       });
-    }
+    },
+	toadmin() {
+	  uni.navigateTo({
+	    url: '/pages/adminHome/adminHome'
+	  });
+	}
   }
 };
 </script>

@@ -11,7 +11,26 @@
 			"style": {
 				"navigationBarTitleText": "注册"
 			}
+		},
+		{
+			"path": "pages/adminHome/adminHome",
+			"style": {
+				"navigationBarTitleText": "管理员"
+			}
+		},
+		{
+			"path": "pages/studentHome/studentHome",
+			"style": {
+				"navigationBarTitleText": "学生"
+			}
+		},
+		{
+			"path": "pages/adminHome/adminHome",
+			"style": {
+				"navigationBarTitleText": "管理员"
+			}
 		}
+
 		
 	],
 	"globalStyle": {
