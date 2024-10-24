@@ -18,8 +18,8 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "3.6.2",
-  "appid": "wxb81068b2a66219c5",
+  "libVersion": "3.6.3",
+  "appid": "touristappid",
   "projectname": "Mutualselection",
   "condition": {},
   "editorSetting": {
