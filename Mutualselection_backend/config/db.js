@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 
 // 创建 Sequelize 实例
-const sequelize = new Sequelize('mutual_selection', 'root', 'password', {
+const sequelize = new Sequelize('mutual_selection', 'root', 'zjrwtx', {
   host: 'localhost',
   dialect: 'mysql'
 });
