@@ -1,0 +1,66 @@
+
+.home-container.data-v-19caf68d {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+.header.data-v-19caf68d {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6D5BBA;
+}
+.info-box.data-v-19caf68d {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.info-title.data-v-19caf68d {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+.info-details.data-v-19caf68d {
+  font-size: 14px;
+  color: #666;
+}
+.teacher-selection.data-v-19caf68d {
+  margin-bottom: 20px;
+}
+.section-title.data-v-19caf68d {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+.teacher-list.data-v-19caf68d {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.teacher-item.data-v-19caf68d {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.confirm-button.data-v-19caf68d {
+  width: 100%;
+  padding: 12px;
+  background-color: #6D5BBA;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.confirm-button.data-v-19caf68d:hover {
+  background-color: #8E8CD8;
+}

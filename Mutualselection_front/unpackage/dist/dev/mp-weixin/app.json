@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/register/register",
-    "pages/adminHome/adminHome"
+    "pages/adminHome/adminHome",
+    "pages/studentHome/studentHome",
+    "pages/teacherHome/teacherHome"
   ],
   "window": {
     "navigationBarTextStyle": "black",

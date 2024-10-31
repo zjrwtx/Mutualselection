@@ -25,9 +25,9 @@
 			}
 		},
 		{
-			"path": "pages/adminHome/adminHome",
+			"path": "pages/teacherHome/teacherHome",
 			"style": {
-				"navigationBarTitleText": "管理员"
+				"navigationBarTitleText": "教师"
 			}
 		}
 

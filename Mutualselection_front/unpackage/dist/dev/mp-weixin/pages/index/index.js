@@ -33,6 +33,16 @@ const _sfc_main = {
         url: "/pages/adminHome/adminHome"
       });
     }
+  },
+  toadstudent() {
+    common_vendor.index.navigateTo({
+      url: "/pages/studentHome/studentHome"
+    });
+  },
+  toadteacher() {
+    common_vendor.index.navigateTo({
+      url: "/pages/teacherHome/teacherHome"
+    });
   }
 };
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -43,7 +53,9 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     d: common_vendor.o(($event) => $data.password = $event.detail.value),
     e: common_vendor.o((...args) => $options.login && $options.login(...args)),
     f: common_vendor.o((...args) => $options.toRegister && $options.toRegister(...args)),
-    g: common_vendor.o((...args) => $options.toadmin && $options.toadmin(...args))
+    g: common_vendor.o((...args) => $options.toadmin && $options.toadmin(...args)),
+    h: common_vendor.o((...args) => _ctx.tostudent && _ctx.tostudent(...args)),
+    i: common_vendor.o((...args) => _ctx.toteacher && _ctx.toteacher(...args))
   };
 }
 const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-1cf27b2a"]]);

@@ -7,6 +7,8 @@
       <button class="login-button" @click="login">登录</button>
       <view class="register-link" @click="toRegister">没有账号？去注册</view>
 	  <view class="register-link" @click="toadmin">admin</view>
+    <view class="register-link" @click="tostudent">student</view>
+    <view class="register-link" @click="toteacher">teacher</view>
 	</view>
   </view>
 </template>
@@ -46,7 +48,18 @@ export default {
 	    url: '/pages/adminHome/adminHome'
 	  });
 	}
-  }
+  },
+  	toadstudent() {
+	  uni.navigateTo({
+	    url: '/pages/studentHome/studentHome'
+	  });
+	},
+  toadteacher() {
+	  uni.navigateTo({
+	    url: '/pages/teacherHome/teacherHome'
+	  });
+	}
+  
 };
 </script>
 
